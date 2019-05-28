@@ -84,7 +84,9 @@
           <div class="resume-content">
             <h3 class="mb-0">Assignment 1</h3>
             <div class="subheading mb-3"> Toelichting</div>
-            <p>--
+            <p> In onderstaande afbeelding ziet u drie ronde vormen, allemaal met een andere kleur, vorm en locatie. 
+              Ook heeft de rode cirkel  bijvoorbeeld geen rand. De kleuren worden bepaald met rgb kleurcodes en deze 
+              staan allemaal in de void setup(). De void draw() is leeg.
             </p>
             <div class="subheading mb-3"> Foto's</div>
 
@@ -99,7 +101,8 @@
           <div class="resume-content">
             <h3 class="mb-0">Assignment 2</h3>
             <div class="subheading mb-3">Toelichting</div>
-            <p> --
+            <p> Als vervolg op de vorige opdracht zijn dit vier verschillende vormen in wisselende kleuren en formaten.
+              Ik heb een driehoek, vierkant, lijn en quad gemaakt. 
 
                   </p>
             <div class="subheading mb-3">Foto's</div>
@@ -112,9 +115,13 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5" id="opdracht3">
           <div class="resume-content">
             <h3 class="mb-0">Assignment 3</h3>
-
+            
             <div class="subheading mb-3">Toelichting</div>
-            <p>  --
+            <p> Bij deze opdracht heb ik interactieve elementen gemaakt. De lijn volgt de beweging van de cursor 
+              en die beïnvloedt de kleur van het scherm. Ik heb drie screenshots toegevoegd, om te laten zien dat er 
+              een andere kleur achtergrond is wanneer de cursor op een andere locatie staat. De cursor interactief door 
+              de code <i> ellipse(mouseX, mouseY, diameter, diameter);<i>. Deze code gaat over het kleine cirkeltje die 
+              de plaats van de cursor overneemt.
                 </p>
 
             <div class="subheading mb-3">Foto's</div>
@@ -132,12 +139,14 @@
           <div class="resume-content">
             <h3 class="mb-0">Assignment CV1</h3>
             <div class="subheading mb-3">Toelichting</div>
-
+         
+            <p>Met behulp van bestaande code herkent de software gezichten in de webcam. 
+              In deze opdracht veranderde ik de code, zodat er een cirkel om de gezichten zou komen. Door in de 
+              bestaande code dit toe te voegen: <i>ellipse(faces[i].x, faces[i].y, faces[i].width, faces[i].height);</i>  
+              en <i>ellipseMode(CORNER);</i> , komt er een cirkel om gezichten in de webcam. </p>
+      
             <div class="subheading mb-3">Foto's</div>
             <img src="img/processing_CV1.png" class="imgVoorbeeld">
-            <p>  --
-
-              </p>
 
           </div>
         </div>
@@ -149,6 +158,8 @@
           <div class="resume-content">
             <h3 class="mb-0">Assignment CV2</h3>
             <div class="subheading mb-3">Toelichting</div>
+            <p>Deze opdracht lijkt op de vorige opdracht, alleen is het doel nu om een clownsneus op gezichten te toveren. 
+              Ik verander CASCADE_FRONTALFACE in CASCADE_NOSE, en zorg dat de cirkel rood wordt met rgb kleurcodes.</p>
             <div class="subheading mb-3">Foto's</div>
             <img src="img/processing_CV2_a.png" class="imgVoorbeeld">
             <img src="img/processing_CV2_b.png" class="imgVoorbeeld">
@@ -162,11 +173,12 @@
           <div class="resume-content">
             <h3 class="mb-0">Assignment CV3</h3>
             <div class="subheading mb-3">Toelichting</div>
+            <p>Met OpenCVMultipleColorTrackingLiveCam kan de webcam bepaalde kleuren aantonen. 
+              Het is interactief, doordat je zelf kan bepalen welke kleur de webcam moet zoeken. Dit kan met het 
+              toetsenbord door de toetsen 1 t/m 4 te gebruiken terwijl je een kleur in het beeld aanklikt. </p>
             <div class="subheading mb-3">Foto's</div>
             <img src="img/processing_CV3_a.png" class="imgVoorbeeld">
             <img src="img/processing_CV3_b.png" class="imgVoorbeeld">
-
-    <hr class="m-0">
 
           </div>
         </div>
@@ -177,7 +189,11 @@
           <div class="resume-content">
             <h3 class="mb-0">Assignment AR</h3>
             <div class="subheading mb-3">Toelichting</div>
-
+              <p>Met Processing is het ook mogelijk om augmented reality te maken, wanneer de webcam een figuur herkent 
+                uit de code zal er iets in beeld komen te staan. Bij deze opdracht doe ik dat met een HIRO afbeelding, 
+                met wat aanpassingen in de code van Simple Lite worden er verschillende vormen op de afbeelding zichtbaar. 
+                De code staat hieronder.</p>
+            
             <p> import processing.video.*; </br>
               import jp.nyatla.nyar4psg.*;</br></br>
 
